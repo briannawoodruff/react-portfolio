@@ -1,0 +1,33 @@
+:root {
+    --border: rgba(140, 29, 50);
+    --light: white;
+    --background: rgba(7, 4, 21);
+    --hover:  rgba(254, 141, 99);
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  position: relative;
+  background: linear-gradient(to bottom, var(--background), rgba(66,11,18,255));
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(66,11,18,255);
+  margin: 0;
+}
+
+a {
+  color: var(--light);
+  text-decoration: none;
+  text-shadow: 5px 4px 7px rgba(0, 0, 0, 0.789);
+}
+
+.fab,
+.fas {
+  display: block;
+  text-align: center;
+  font-size: 60px;
+  padding: 10px;
+  text-shadow: 5px 4px 7px rgba(0, 0, 0, 0.789);
+}
