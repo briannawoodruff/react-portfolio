@@ -1,0 +1,88 @@
+:root {
+    --border: rgba(140, 29, 50);
+    --light: white;
+    --navy: rgba(7, 4, 21);
+    --hover:  rgba(254, 141, 99);
+    --beige: #CCBCBC;
+    --blush: #F1E3E4;
+}
+
+a {
+    color: black;
+    display: block;
+}
+
+a:hover,
+a:hover {
+    color: #f12d51;
+}
+
+aside {
+    /* border: 2px solid black; */
+    display: block;
+    margin-left: 30px;
+    height: 70vh;
+    margin: auto;
+}
+
+.Contact-Me {
+    width: 80vw;
+    height: 70vh;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: var(--blush);
+}
+
+.aboutlinks {
+    display: flex;
+    flex-wrap: wrap;
+    display: block;
+    padding-top: 5px;
+    font-size: 25px;
+    height: 20vh;
+    width: 30vw;
+    text-align: center;
+    margin-top: 400px;
+    margin: auto;
+    background-color: var(--blush);
+    /* border: 2px solid black; */
+}
+
+.avatar {
+    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    margin: auto;
+}
+  
+.profile-img {
+    margin: 50px 25px 50px 25px;
+    border-radius: 50%;
+}
+
+.form {
+    /* border: 2px solid black; */
+    display: block;
+    margin: auto;
+    margin-bottom: 40px;
+    height: 50vh;
+    width: 40vw;
+    padding-right: 70px;
+    background-color: var(--blush);
+}
+
+p {
+    color: black;
+}
+
+
+@media only screen and (max-width: 900px) {
+    .form {
+        height: 35vh;
+        width: 80vw;
+        margin-top: -50px;
+        margin-bottom: 50px;
+    }
+}

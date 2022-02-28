@@ -5,6 +5,7 @@ import { NavLink, Routes, Route } from 'react-router-dom'
 import Head from './components/header/Header'
 import AboutMe from './components/about-me/AboutMe'
 import Project from './components/project/Project'
+import ContactMe from './components/contact-me/ContactMe'
 
 // ant.design
 import 'antd/dist/antd.css';
@@ -21,7 +22,7 @@ function App() {
       <Routes>
         <Route path='/about-me' element={<AboutMe />} />
         <Route path='/portfolio' element={<Project />} />
-        {/* <Route path='/contact-me' element={<Sports />} /> */}
+        <Route path='/contact-me' element={<ContactMe />} />
         {/* <Route path='/resume' element={<Weather />} /> */}
       </Routes>
     </main>

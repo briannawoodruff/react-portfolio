@@ -15,17 +15,19 @@ export default function AboutMe() {
                 <a id="linkedin" target="_blank" href="https://linkedin.com/in/briannaewoodruff/"> LinkedIn</a>
                 <a id="vimeo" target="_blank" href="https://vimeo.com/294283512/"> Vimeo Reel</a>
             </div>
-            <p>
-                Hi, I’m Brianna Woodruff. I am currently a student of Northwestern’s Full Stack Coding Bootcamp. My goal
-                is to become a software engineer where I can combine my creative skills from my arts background with the
-                technical skills I am learning in this program.
-            </p>
-            <p>
-                I am originally from central Wisconsin and got my undergraduate degree from University of Wisconsin –
-                Madison. I have a 5 year background in film production and an 8 year background in the floral industry.
-                I currently work at a luxury florist, Luxe Bloom LLC., where I manage large and small scale projects and
-                handcraft luxury arrangements.
-            </p>
+            <div className="text">
+                <p>
+                    Hi, I’m Brianna Woodruff. I am currently a student of Northwestern’s Full Stack Coding Bootcamp. My goal
+                    is to become a software engineer where I can combine my creative skills from my arts background with the
+                    technical skills I am learning in this program.
+                </p>
+                <p>
+                    I am originally from central Wisconsin and got my undergraduate degree from University of Wisconsin –
+                    Madison. I have a 5 year background in film production and an 8 year background in the floral industry.
+                    I currently work at a luxury florist, Luxe Bloom LLC., where I manage large and small scale projects and
+                    handcraft luxury arrangements.
+                </p>
+            </div>
         </section>
     )
 }

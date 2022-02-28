@@ -10,7 +10,12 @@
 .project {
     width: 100%;
     color: var(--light);
-  }
+}
+
+p {
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 20px;
+}
   
 .container {
     display: flex;
@@ -125,4 +130,50 @@
     padding: 20px 20px 10px 20px;
     /* border: 2px solid black; */
     background-color: var(--blush);
+}
+
+@media only screen and (max-width: 900px) {
+    .code-card {
+        height: 50vh;
+        width: 80vw;
+    }
+
+    .muvd-text,
+    .unpuffd-text,
+    .techblog-text {
+        height: 45vh;
+    }
+
+    .muvd,
+    .unpuffd,
+    .tech-blog,
+    .note-taker {
+        background-position: left;
+        background-size: 650px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .code-card {
+        height: 30vh;
+        width: 80vw;
+    }
+
+    .muvd-text,
+    .unpuffd-text,
+    .techblog-text {
+        /* height: 70vh; */
+        display: none;
+    }
+
+    .muvd,
+    .unpuffd,
+    .tech-blog,
+    .note-taker {
+        /* background-position: left top; */
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
+    }
 }
