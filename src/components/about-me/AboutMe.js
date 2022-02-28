@@ -5,7 +5,6 @@ import Resume from '../../assets/files/Brianna-Woodruff_Resume-2022.pdf'
 export default function AboutMe() {
     return (
         <section id="About-Me" className="card About-Me">
-            {/* <h2 id="aboutmetitle">About Me</h2> */}
             <div className="avatar">
                 <img src={ProfileImg} height={300} width={300} className="profile-img" alt="profileimg" />
             </div>

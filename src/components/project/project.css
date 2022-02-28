@@ -7,7 +7,7 @@
     --blush: #F1E3E4;
 }
 
-.Work {
+.project {
     width: 100%;
     color: var(--light);
   }
@@ -18,24 +18,29 @@
     flex-direction: column;
     align-content: center;
     justify-content: space-evenly;
+    margin: auto;
 }
   
 .code-card {
     border-style: solid;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.597);
+    position: relative;
     border-color: var(--border);
     border-width: 2px;
     padding: 10px;
     flex: 0 0 400px;
     height: 40vh;
-    width: 55vw;
+    width: 80vw;
     margin: 40px;
+    background-color: var(--blush);
 }
   
 .card-header {
     font-family: 'Tenor Sans', sans-serif;
+    text-align: center;
     border-radius: 6px;
     margin-top: -30px;
+    /* width: 30vw; */
     font-size: 25px;
     border-style: solid;
     border-color: var(--border);
@@ -43,16 +48,14 @@
     background: var(--navy);
     border-width: 2px;
     padding: 10px;
-    text-align: center;
 }
   
 .muvd {
     background-image: url(../../assets/images/muvd.jpg);
-    background-color: white;
-    background-size: 100%;
+    background-size: 575px;
     background-repeat: no-repeat;
-    background-position: top;
-    background-size: cover;
+    background-position: left -60px bottom -90px;
+    background-color:var(--blush);
 }
   
 .muvd-text {
@@ -60,54 +63,66 @@
     color: black;
     text-shadow: none;
     display: block;
-    margin-left: 500px;
-    margin-top: 40px;
-    margin-right: 25px;
+    position: relative;
+    width: 45.5vw;
+    height: 34.9vh;
+    float: right;
+    margin-right: -10px;
+    margin-top: -12px;
+    padding: 20px 20px 10px 20px;
+    /* border: 2px solid black; */
+    background-color: var(--blush);
 }
   
 .note-taker {
     background-image: url(../../assets/images/ScreenCapture-NoteTakerApp.jpg);
-    background-color: white;
-    background-size: 100%;
+    background-size: 645px;
     background-repeat: no-repeat;
-    background-position: top;
-    background-size: cover;
+    background-position: left -60px bottom -90px;
 }
-  
+
 .unpuffd {
     background-image: url(../../assets/images/ScreenCapture-Unpuffd.jpg);
-    background-color: rgba(11, 1, 0);
-    background-size: 100%;
+    background-size: 575px;
     background-repeat: no-repeat;
-    background-position: top;
-    background-size: cover;
-}
+    background-position: left;
+ }
   
 .unpuffd-text {
     text-decoration: none;
-    color: white;
+    color: black;
     text-shadow: none;
     display: block;
-    margin-left: 525px;
-    margin-top: 40px;
-    margin-right: 25px;
+    position: relative;
+    width: 40vw;
+    height: 37vh;
+    float: right;
+    margin-right: -10px;
+    margin-top: -12px;
+    padding: 20px 20px 10px 20px;
+    /* border: 2px solid black; */
+    background-color: var(--blush);
 }
   
 .tech-blog {
     background-image: url(../../assets/images/ScreenCapture-the-mvc-techblog.jpg);
-    background-color: rgb(108, 107, 103);;
-    background-size: 100%;
+    background-size: 490px;
     background-repeat: no-repeat;
-    background-position: top;
-    background-size: cover;
+    background-position: left;
 }
   
 .techblog-text {
     text-decoration: none;
-    color: white;
+    color: black;
     text-shadow: none;
     display: block;
-    margin-left: 475px;
-    margin-top: 40px;
-    margin-right: 25px;
+    position: relative;
+    width: 40vw;
+    height: 34.9vh;
+    float: right;
+    margin-right: -10px;
+    margin-top: -12px;
+    padding: 20px 20px 10px 20px;
+    /* border: 2px solid black; */
+    background-color: var(--blush);
 }
