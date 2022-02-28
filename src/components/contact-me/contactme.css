@@ -13,6 +13,7 @@ aside {
     display: block;
     margin-left: 30px;
     height: 70vh;
+    /* width: 20vw; */
     margin: auto;
 }
 
@@ -32,7 +33,7 @@ aside {
     padding-top: 5px;
     font-size: 25px;
     height: 20vh;
-    width: 30vw;
+    width: 20vw;
     text-align: center;
     margin-top: 400px;
     margin: auto;
@@ -70,10 +71,52 @@ p {
 
 
 @media only screen and (max-width: 900px) {
+    .Contact-Me {
+        height: 100vh;
+    }
+
     .form {
         height: 35vh;
         width: 80vw;
         margin-top: -50px;
         margin-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .Contact-Me {
+        height: 100vh;
+    }
+
+   #resume {
+    margin-left: 0;
+    }
+
+    #linkedin {
+    margin-right: 0;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .Contact-Me {
+        height: 145vh;
+    }
+
+    aside {
+    /* border: 2px solid black; */
+    display: block;
+    /* margin-left: 30px; */
+    height: 70vh;
+    width: 80vw;
+    margin: auto;
+    }
+
+    .profile-img {
+        margin: 0;
+    }
+
+    .form {
+        padding: 20px;
+        height: 50vh;
     }
 }
