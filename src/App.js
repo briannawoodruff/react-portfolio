@@ -6,17 +6,14 @@ import Head from './components/header/Header'
 import AboutMe from './components/about-me/AboutMe'
 import Project from './components/project/Project'
 import ContactMe from './components/contact-me/ContactMe'
-
+import Footer from './components/footer/Footer'
 // ant.design
 import 'antd/dist/antd.css';
 
-// font awesome icons
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { faCode, faPerson, faMailReply } from '@fortawesome/free-solid-svg-icons'
-// import { faGithub, faLinkedin, faInstagram, faVimeo } from '@fortawesome/free-brands-svg-icons'
 
 function App() {
   return (
+    <>
     <main className="App">
       <Head />
       <Routes>
@@ -25,7 +22,9 @@ function App() {
         <Route path='/contact-me' element={<ContactMe />} />
         {/* <Route path='/resume' element={<Weather />} /> */}
       </Routes>
+      <Footer />
     </main>
+    </>
   );
 }
 
