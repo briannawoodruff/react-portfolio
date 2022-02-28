@@ -123,6 +123,19 @@ p {
     background-color: var(--blush);
 }
 
+.icon {
+    font-size: 30px;
+    /* float: right; */
+    color: white;
+    display: inline;
+    padding-left: 20px;
+}
+
+a:hover,
+a:hover {
+    color: #f12d51;
+}
+
 @media only screen and (max-width: 900px) {
     .code-card {
         height: 50vh;
