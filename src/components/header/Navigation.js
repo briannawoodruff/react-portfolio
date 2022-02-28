@@ -1,7 +1,6 @@
 import './header.css';
 // routing
-import AboutMe from '../about-me/AboutMe'
-import { NavLink, Routes, Route } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 
 export default function Navigation() {
@@ -10,33 +9,36 @@ export default function Navigation() {
             <nav>
                 <ul>
                     <li>
-                        <NavLink to='/about-me' style={{color: 'white', textDecoration: 'none'}} activeStyle={{color: 'red', textDecoration: 'none'}}>
+                        <NavLink to='/about-me' style={({ isActive }) => ({
+                            color: isActive ? '#f12d51' : 'white'
+                        })}
+                        >
                             About Me
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink to='/portfolio' style={{color: 'white', textDecoration: 'none'}} activeStyle={{color: 'red', textDecoration: 'none'}}>
+                        <NavLink to='/portfolio' style={({ isActive }) => ({
+                            color: isActive ? '#f12d51' : 'white'
+                        })}>
                             Portfolio
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink to='/contact-me' style={{color: 'white', textDecoration: 'none'}} activeStyle={{color: 'red', textDecoration: 'none'}}>
+                        <NavLink to='/contact-me' style={({ isActive }) => ({
+                            color: isActive ? '#f12d51' : 'white'
+                        })}>
                             Contact Me
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink to='/resume' style={{color: 'white', textDecoration: 'none'}} activeStyle={{color: 'red', textDecoration: 'none'}}>
+                        <NavLink to='/resume' style={({ isActive }) => ({
+                            color: isActive ? '#f12d51' : 'white'
+                        })}>
                             Resume
                         </NavLink>
                     </li>
                 </ul>
             </nav>
-            {/* <Routes> */}
-            {/* <Route path='/about-me' element={<AboutMe />} /> */}
-            {/* <Route path='/portfolio' element={<News />} /> */}
-            {/* <Route path='/contact-me' element={<Sports />} /> */}
-            {/* <Route path='/resume' element={<Weather />} /> */}
-            {/* </Routes> */}
         </>
     )
 }

@@ -1,7 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
 import './style.css';
+import { NavLink, Routes, Route } from 'react-router-dom'
 import Head from './components/header/Header'
+import AboutMe from './components/about-me/AboutMe'
+import Project from './components/project/Project'
 
 // ant.design
 import 'antd/dist/antd.css';
@@ -13,9 +16,15 @@ import 'antd/dist/antd.css';
 
 function App() {
   return (
-    <div className="App">
+    <main className="App">
       <Head />
-    </div>
+      <Routes>
+        <Route path='/about-me' element={<AboutMe />} />
+        <Route path='/portfolio' element={<Project />} />
+        {/* <Route path='/contact-me' element={<Sports />} /> */}
+        {/* <Route path='/resume' element={<Weather />} /> */}
+      </Routes>
+    </main>
   );
 }
 

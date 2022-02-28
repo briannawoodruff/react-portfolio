@@ -1,0 +1,113 @@
+:root {
+    --border: rgba(140, 29, 50);
+    --light: white;
+    --navy: rgba(7, 4, 21);
+    --hover:  rgba(254, 141, 99);
+    --beige: #CCBCBC;
+    --blush: #F1E3E4;
+}
+
+.Work {
+    width: 100%;
+    color: var(--light);
+  }
+  
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-evenly;
+}
+  
+.code-card {
+    border-style: solid;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.597);
+    border-color: var(--border);
+    border-width: 2px;
+    padding: 10px;
+    flex: 0 0 400px;
+    height: 40vh;
+    width: 55vw;
+    margin: 40px;
+}
+  
+.card-header {
+    font-family: 'Tenor Sans', sans-serif;
+    border-radius: 6px;
+    margin-top: -30px;
+    font-size: 25px;
+    border-style: solid;
+    border-color: var(--border);
+    color: var(--light);
+    background: var(--navy);
+    border-width: 2px;
+    padding: 10px;
+    text-align: center;
+}
+  
+.muvd {
+    background-image: url(../../assets/images/muvd.jpg);
+    background-color: white;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+  
+.muvd-text {
+    text-decoration: none;
+    color: black;
+    text-shadow: none;
+    display: block;
+    margin-left: 500px;
+    margin-top: 40px;
+    margin-right: 25px;
+}
+  
+.note-taker {
+    background-image: url(../../assets/images/ScreenCapture-NoteTakerApp.jpg);
+    background-color: white;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+  
+.unpuffd {
+    background-image: url(../../assets/images/ScreenCapture-Unpuffd.jpg);
+    background-color: rgba(11, 1, 0);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+  
+.unpuffd-text {
+    text-decoration: none;
+    color: white;
+    text-shadow: none;
+    display: block;
+    margin-left: 525px;
+    margin-top: 40px;
+    margin-right: 25px;
+}
+  
+.tech-blog {
+    background-image: url(../../assets/images/ScreenCapture-the-mvc-techblog.jpg);
+    background-color: rgb(108, 107, 103);;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+  
+.techblog-text {
+    text-decoration: none;
+    color: white;
+    text-shadow: none;
+    display: block;
+    margin-left: 475px;
+    margin-top: 40px;
+    margin-right: 25px;
+}
