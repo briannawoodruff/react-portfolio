@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 export default function Head() {
     return (
         <div className="navbar">
-            <Link to='/'>
+            <Link to='/about-me'>
                 <h1>Brianna Woodruff</h1>
             </Link>
             <Navigation />
