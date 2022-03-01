@@ -11,9 +11,9 @@ export default function AboutMe() {
             <div className="aboutmelinks">
                 <a id="resume" href={Resume} download> Resume
                 </a>
-                <a id="github" target="_blank" href="https://github.com/briannawoodruff"> GitHub</a>
-                <a id="linkedin" target="_blank" href="https://linkedin.com/in/briannaewoodruff/"> LinkedIn</a>
-                <a id="vimeo" target="_blank" href="https://vimeo.com/294283512/"> Vimeo Reel</a>
+                <a id="github" target="_blank" rel="noreferrer" href="https://github.com/briannawoodruff"> GitHub</a>
+                <a id="linkedin" target="_blank" rel="noreferrer" href="https://linkedin.com/in/briannaewoodruff/"> LinkedIn</a>
+                <a id="vimeo" target="_blank" rel="noreferrer" href="https://vimeo.com/294283512/"> Vimeo Reel</a>
             </div>
             <div className="text">
                 <p>

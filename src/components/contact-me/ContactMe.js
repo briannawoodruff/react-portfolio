@@ -39,9 +39,9 @@ export default function Project() {
                 <div className="aboutlinks">
                     <a href={Resume} download> Resume
                     </a>
-                    <a target="_blank" href="https://github.com/briannawoodruff"> GitHub</a>
-                    <a target="_blank" href="https://linkedin.com/in/briannaewoodruff/"> LinkedIn</a>
-                    <a target="_blank" href="https://vimeo.com/294283512/"> Vimeo Reel</a>
+                    <a target="_blank" rel="noreferrer" href="https://github.com/briannawoodruff"> GitHub</a>
+                    <a target="_blank" rel="noreferrer" href="https://linkedin.com/in/briannaewoodruff/"> LinkedIn</a>
+                    <a target="_blank" rel="noreferrer" href="https://vimeo.com/294283512/"> Vimeo Reel</a>
                 </div>
             </aside>
 

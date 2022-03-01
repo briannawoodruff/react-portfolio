@@ -8,9 +8,9 @@ export default function Project() {
         <section id="project" className="project">
             <div className="container">
                 <div className="code-card unpuffd">
-                    <a target="_blank" href="https://unpuffd.herokuapp.com/">
+                    <a target="_blank" rel="noreferrer" href="https://unpuffd.herokuapp.com/">
                         <h3 className="card-header">UnPuffd
-                        <a className="icon" target="_blank" href="https://github.com/coding-p2-g2/unpuffd"><FontAwesomeIcon icon={faGithub}/></a>
+                        <a className="icon" target="_blank" rel="noreferrer" href="https://github.com/coding-p2-g2/unpuffd"><FontAwesomeIcon icon={faGithub}/></a>
                         </h3>
                         <div className="unpuffd-text">
                             <p>
@@ -25,10 +25,10 @@ export default function Project() {
             </div>
 
             <div className="container">
-                <a target="_blank" href="https://github.com/briannawoodruff/tech-blog-mvc">
+                <a target="_blank" rel="noreferrer" href="https://github.com/briannawoodruff/tech-blog-mvc">
                     <div className="code-card tech-blog">
                         <h3 className="card-header">The Tech Blog
-                        <a className="icon" target="_blank" href="https://github.com/briannawoodruff/tech-blog-mvc"><FontAwesomeIcon icon={faGithub}/></a>
+                        <a className="icon" target="_blank" rel="noreferrer" href="https://github.com/briannawoodruff/tech-blog-mvc"><FontAwesomeIcon icon={faGithub}/></a>
                         </h3>
                         <div className="techblog-text">
                             <p>
@@ -43,10 +43,10 @@ export default function Project() {
             </div>
 
             <div className="container">
-                <a target="_blank" href="https://coding-p1-g1.github.io/muvd/">
+                <a target="_blank" rel="noreferrer" href="https://coding-p1-g1.github.io/muvd/">
                     <div className="code-card muvd">
                         <h3 className="card-header">muvd
-                        <a className="icon" target="_blank" href="https://github.com/coding-p1-g1/muvd/"><FontAwesomeIcon icon={faGithub}/></a>
+                        <a className="icon" target="_blank" rel="noreferrer" href="https://github.com/coding-p1-g1/muvd/"><FontAwesomeIcon icon={faGithub}/></a>
                         </h3>
                         <div className="muvd-text">
                             <p>
@@ -61,10 +61,10 @@ export default function Project() {
             </div>
 
             <div className="container">
-                <a target="_blank" href="https://note-taker-app-bw.herokuapp.com/">
+                <a target="_blank" rel="noreferrer" href="https://note-taker-app-bw.herokuapp.com/">
                     <div className="code-card note-taker">
                         <h3 className="card-header">The Note Taker
-                        <a className="icon" target="_blank" href="https://github.com/briannawoodruff/note-taker-app"><FontAwesomeIcon icon={faGithub}/></a>
+                        <a className="icon" target="_blank" rel="noreferrer" href="https://github.com/briannawoodruff/note-taker-app"><FontAwesomeIcon icon={faGithub}/></a>
                         </h3>
                         <div className="muvd-text">
                             <p>
