@@ -27,6 +27,7 @@ aside {
 }
 
 .aboutlinks {
+    font-family: 'Tenor Sans', sans-serif;
     display: flex;
     flex-wrap: wrap;
     display: block;

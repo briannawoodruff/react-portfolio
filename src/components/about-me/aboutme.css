@@ -9,6 +9,7 @@ a:hover {
 }
 
 .aboutmelinks {
+    font-family: 'Tenor Sans', sans-serif;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
