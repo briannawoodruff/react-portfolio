@@ -9,7 +9,7 @@ export default function Navigation() {
             <nav>
                 <ul>
                     <li>
-                        <NavLink to='/about-me' style={({ isActive }) => ({
+                        <NavLink to='/' style={({ isActive }) => ({
                             color: isActive ? '#f12d51' : 'white'
                         })}
                         >
