@@ -1,22 +1,21 @@
 {
   "files": {
-    "main.css": "/briannawoodruff/react-portfolio/static/css/main.952c9654.css",
-    "main.js": "/briannawoodruff/react-portfolio/static/js/main.1cc912e4.js",
-    "static/js/787.a2cb61a6.chunk.js": "/briannawoodruff/react-portfolio/static/js/787.a2cb61a6.chunk.js",
-    "static/media/headshot2022.jpg": "/briannawoodruff/react-portfolio/static/media/headshot2022.11e6066de39760f295d5.jpg",
-    "static/media/ScreenCapture-Unpuffd.jpg": "/briannawoodruff/react-portfolio/static/media/ScreenCapture-Unpuffd.e0bc247e0daa5ffc2463.jpg",
-    "static/media/ScreenCapture-the-mvc-techblog.jpg": "/briannawoodruff/react-portfolio/static/media/ScreenCapture-the-mvc-techblog.0d8b00b4409548f4916b.jpg",
-    "static/media/Brianna-Woodruff_Resume-2022.pdf": "/briannawoodruff/react-portfolio/static/media/Brianna-Woodruff_Resume-2022.647273846d5a871b22f6.pdf",
-    "static/media/muvd.jpg": "/briannawoodruff/react-portfolio/static/media/muvd.227224bfa25fb6ed7efe.jpg",
-    "static/media/ScreenCapture-NoteTakerApp.jpg": "/briannawoodruff/react-portfolio/static/media/ScreenCapture-NoteTakerApp.f0d9dc42301c6ede4aad.jpg",
-    "static/media/logo.svg": "/briannawoodruff/react-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/briannawoodruff/react-portfolio/index.html",
-    "main.952c9654.css.map": "/briannawoodruff/react-portfolio/static/css/main.952c9654.css.map",
-    "main.1cc912e4.js.map": "/briannawoodruff/react-portfolio/static/js/main.1cc912e4.js.map",
-    "787.a2cb61a6.chunk.js.map": "/briannawoodruff/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+    "main.css": "/react-portfolio/static/css/main.b9a62e7e.css",
+    "main.js": "/react-portfolio/static/js/main.8258e07c.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/headshot2022.jpg": "/react-portfolio/static/media/headshot2022.11e6066de39760f295d5.jpg",
+    "static/media/ScreenCapture-Unpuffd.jpg": "/react-portfolio/static/media/ScreenCapture-Unpuffd.e0bc247e0daa5ffc2463.jpg",
+    "static/media/ScreenCapture-the-mvc-techblog.jpg": "/react-portfolio/static/media/ScreenCapture-the-mvc-techblog.0d8b00b4409548f4916b.jpg",
+    "static/media/Brianna-Woodruff_Resume-2022.pdf": "/react-portfolio/static/media/Brianna-Woodruff_Resume-2022.647273846d5a871b22f6.pdf",
+    "static/media/muvd.jpg": "/react-portfolio/static/media/muvd.227224bfa25fb6ed7efe.jpg",
+    "static/media/ScreenCapture-NoteTakerApp.jpg": "/react-portfolio/static/media/ScreenCapture-NoteTakerApp.f0d9dc42301c6ede4aad.jpg",
+    "index.html": "/react-portfolio/index.html",
+    "main.b9a62e7e.css.map": "/react-portfolio/static/css/main.b9a62e7e.css.map",
+    "main.8258e07c.js.map": "/react-portfolio/static/js/main.8258e07c.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.952c9654.css",
-    "static/js/main.1cc912e4.js"
+    "static/css/main.b9a62e7e.css",
+    "static/js/main.8258e07c.js"
   ]
 }
