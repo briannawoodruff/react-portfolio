@@ -75,7 +75,7 @@ a:hover {
 
 @media only screen and (max-width: 740px) {
     .About-Me {
-        height: 150vh;
+        height: 120vh;
     }
 
     .text {
@@ -105,6 +105,10 @@ a:hover {
     div img {
         float: none;
         margin: auto;
+    }
+
+    .text {
+        padding: 20px;
     }
 }
   
