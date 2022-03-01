@@ -1,6 +1,6 @@
 # <div align="center">Brianna's Portfolio</div>
 
-### Website: https://briannawoodruff.github.io/Portfolio/
+### Website: https://briannawoodruff.github.io/react-portfolio/
 
 ***
 This is a single-page application built with React, React Router v6, and [ant.design](https://ant.design/). This portfolio does not include backend yet so the contact for does not save information.
