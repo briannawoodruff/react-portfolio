@@ -2,8 +2,7 @@ import './contactme.css';
 import ProfileImg from '../../assets/images/headshot2022.jpg'
 import Resume from '../../assets/files/Brianna-Woodruff_Resume-2022.pdf'
 import 'antd/dist/antd.css';
-import React, { useState } from 'react';
-import { Form, Input, InputNumber, Button } from 'antd';
+import { Form, Input, Button } from 'antd';
 
 export default function Project() {
     const layout = {
