@@ -1,4 +1,4 @@
-# <div align="center">Brianna's Portfolio</div>
+# <div align="center">Brianna's React Portfolio</div>
 
 ### Website: https://briannawoodruff.github.io/react-portfolio/
 
