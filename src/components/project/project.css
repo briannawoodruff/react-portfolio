@@ -24,8 +24,7 @@ p {
     border-color: var(--border);
     border-width: 2px;
     padding: 10px;
-    flex: 0 0 400px;
-    height: 40vh;
+    height: 350px;
     width: 80vw;
     margin: 40px;
     background-color: var(--blush);
@@ -61,7 +60,8 @@ p {
     display: block;
     position: relative;
     width: 45.5vw;
-    height: 34.1vh;
+    /* height: 34.1vh; */
+    height: 295px;
     float: right;
     margin-right: -10px;
     margin-top: -12px;
@@ -91,7 +91,8 @@ p {
     display: block;
     position: relative;
     width: 40vw;
-    height: 36.2vh;
+    /* height: 36.2vh; */
+    height: 295px;
     float: right;
     margin-right: -10px;
     margin-top: -12px;
@@ -114,7 +115,8 @@ p {
     display: block;
     position: relative;
     width: 40vw;
-    height: 34.1vh;
+    /* height: 34.1vh; */
+    height: 295px;
     float: right;
     margin-right: -10px;
     margin-top: -12px;
