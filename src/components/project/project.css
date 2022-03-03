@@ -5,7 +5,7 @@
 
 p {
     font-family: 'Tenor Sans', sans-serif;
-    font-size: 20px;
+    font-size: 18.25px;
 }
   
 .container {
@@ -18,11 +18,9 @@ p {
 }
   
 .code-card {
-    border-style: solid;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.597);
     position: relative;
-    border-color: var(--border);
-    border-width: 2px;
+    border: 2px solid var(--border);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.597);
     padding: 10px;
     height: 350px;
     width: 80vw;
@@ -35,13 +33,10 @@ p {
     text-align: center;
     border-radius: 6px;
     margin-top: -30px;
-    /* width: 30vw; */
     font-size: 25px;
-    border-style: solid;
-    border-color: var(--border);
+    border: 2px solid var(--border);
     color: var(--light);
     background: var(--navy);
-    border-width: 2px;
     padding: 10px;
 }
   
@@ -52,24 +47,7 @@ p {
     background-position: left -60px bottom -90px;
     background-color:var(--blush);
 }
-  
-.muvd-text {
-    text-decoration: none;
-    color: black;
-    text-shadow: none;
-    display: block;
-    position: relative;
-    width: 45.5vw;
-    /* height: 34.1vh; */
-    height: 295px;
-    float: right;
-    margin-right: -10px;
-    margin-top: -12px;
-    padding: 20px 20px 10px 20px;
-    /* border: 2px solid black; */
-    background-color: var(--blush);
-}
-  
+
 .note-taker {
     background-image: url(../../assets/images/ScreenCapture-NoteTakerApp.jpg);
     background-size: 645px;
@@ -82,23 +60,6 @@ p {
     background-size: 575px;
     background-repeat: no-repeat;
     background-position: left;
- }
-  
-.unpuffd-text {
-    text-decoration: none;
-    color: black;
-    text-shadow: none;
-    display: block;
-    position: relative;
-    width: 40vw;
-    /* height: 36.2vh; */
-    height: 295px;
-    float: right;
-    margin-right: -10px;
-    margin-top: -12px;
-    padding: 20px 20px 10px 20px;
-    /* border: 2px solid black; */
-    background-color: var(--blush);
 }
   
 .tech-blog {
@@ -107,27 +68,23 @@ p {
     background-repeat: no-repeat;
     background-position: left;
 }
-  
-.techblog-text {
-    text-decoration: none;
+
+.cardtext {
     color: black;
-    text-shadow: none;
     display: block;
     position: relative;
-    width: 40vw;
-    /* height: 34.1vh; */
-    height: 295px;
+    width: 45.5vw;
+    height: 295.5px;
     float: right;
     margin-right: -10px;
     margin-top: -12px;
     padding: 20px 20px 10px 20px;
-    /* border: 2px solid black; */
     background-color: var(--blush);
+    border-bottom: 2px solid var(--border);
 }
 
 .icon {
     font-size: 30px;
-    /* float: right; */
     color: white;
     display: inline;
     padding-left: 20px;
@@ -140,48 +97,22 @@ a:hover {
 
 @media only screen and (max-width: 900px) {
     .code-card {
-        height: 50vh;
+        height: 350px;
         width: 80vw;
     }
 
-    .muvd-text,
-    .unpuffd-text,
-    .techblog-text {
-        height: 44.2vh;
-    }
-
-    .muvd,
-    .unpuffd,
-    .tech-blog,
-    .note-taker {
-        background-position: left -160px bottom -40px;
-        background-size: 650px;
-    }
-    
-    .tech-blog {
-        background-position: left -30px bottom -30px;
-        background-size: 650px;
+    .cardtext {
+        height: 295.5px;
+        border-bottom: 1px solid var(--border);
     }
 }
 
 @media only screen and (max-width: 576px) {
-    .code-card {
-        height: 30vh;
-        width: 80vw;
-    }
-
-    .muvd-text,
-    .unpuffd-text,
-    .techblog-text {
-        /* height: 70vh; */
+    .cardtext {
         display: none;
     }
 
-    .muvd,
-    .unpuffd,
-    .tech-blog,
-    .note-taker {
-        /* background-position: left top; */
+    .code-card {
         background-size: 100%;
         background-repeat: no-repeat;
         background-position: bottom;

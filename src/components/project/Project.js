@@ -12,7 +12,7 @@ export default function Project() {
                         <h3 className="card-header">UnPuffd
                         <a className="icon" target="_blank" rel="noreferrer" href="https://github.com/coding-p2-g2/unpuffd"><FontAwesomeIcon icon={faGithub}/></a>
                         </h3>
-                        <div className="unpuffd-text">
+                        <div className="cardtext">
                             <p>
                                 An application inspired by Untappd that allows people to learn about and review cannabis, if of legal age.
                             </p>
@@ -30,7 +30,7 @@ export default function Project() {
                         <h3 className="card-header">The Tech Blog
                         <a className="icon" target="_blank" rel="noreferrer" href="https://github.com/briannawoodruff/tech-blog-mvc"><FontAwesomeIcon icon={faGithub}/></a>
                         </h3>
-                        <div className="techblog-text">
+                        <div className="cardtext">
                             <p>
                                 AA CMS-style blog where developers can create blog posts and comment on other developers' posts.
                             </p>
@@ -48,7 +48,7 @@ export default function Project() {
                         <h3 className="card-header">muvd
                         <a className="icon" target="_blank" rel="noreferrer" href="https://github.com/coding-p1-g1/muvd/"><FontAwesomeIcon icon={faGithub}/></a>
                         </h3>
-                        <div className="muvd-text">
+                        <div className="cardtext">
                             <p>
                                 Muvd is an application that allows users to search for movies, or suggests movies based on the user's mood.
                             </p>
@@ -66,7 +66,7 @@ export default function Project() {
                         <h3 className="card-header">The Note Taker
                         <a className="icon" target="_blank" rel="noreferrer" href="https://github.com/briannawoodruff/note-taker-app"><FontAwesomeIcon icon={faGithub}/></a>
                         </h3>
-                        <div className="muvd-text">
+                        <div className="cardtext">
                             <p>
                                 An application where a user is able to write and save notes to more efficiently organize and keep track of thoughts and tasks.
                             </p>
