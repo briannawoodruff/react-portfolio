@@ -1,6 +1,6 @@
 import './aboutme.css';
 import ProfileImg from '../../assets/images/headshot2022.jpg'
-import Resume from '../../assets/files/Brianna-Woodruff_Resume-2022.pdf'
+import { NavLink } from 'react-router-dom'
 
 export default function AboutMe() {
     return (
@@ -9,8 +9,9 @@ export default function AboutMe() {
                 <img src={ProfileImg} height={300} width={300} className="profile-img" alt="profileimg" />
             </div>
             <div className="aboutmelinks">
-                <a id="resume" href={Resume} download> Resume
-                </a>
+                <NavLink to='/resume' id="resume">
+                    Resume
+                </NavLink>
                 <a id="github" target="_blank" rel="noreferrer" href="https://github.com/briannawoodruff"> GitHub</a>
                 <a id="linkedin" target="_blank" rel="noreferrer" href="https://linkedin.com/in/briannaewoodruff/"> LinkedIn</a>
                 <a id="vimeo" target="_blank" rel="noreferrer" href="https://vimeo.com/294283512/"> Vimeo Reel</a>

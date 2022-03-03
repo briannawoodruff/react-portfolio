@@ -8,50 +8,26 @@ a:hover {
     color: #f12d51;
 }
 
-aside {
-    /* border: 2px solid black; */
-    display: block;
-    margin-left: 30px;
-    height: 70vh;
-    /* width: 20vw; */
-    margin: auto;
-}
-
 .Resume {
     width: 80vw;
-    height: 70vh;
+    height: 65vh;
     margin: auto;
     margin-top: 50px;
     margin-bottom: 50px;
     background: var(--blush);
 }
 
-.aboutlinks {
-    font-family: 'Tenor Sans', sans-serif;
-    display: flex;
-    flex-wrap: wrap;
-    display: block;
-    padding-top: 5px;
-    font-size: 25px;
-    height: 20vh;
-    width: 20vw;
-    text-align: center;
-    margin-top: 400px;
-    margin: auto;
-    background-color: var(--blush);
-    /* border: 2px solid black; */
-}
-
 .info {
-    /* border: 2px solid black; */
     display: block;
     margin: auto;
+    padding-top: 50px;
     margin-bottom: 40px;
-    height: 50vh;
+    height: 45vh;
     width: 40vw;
     padding-right: 70px;
     background-color: var(--blush);
     font-size: 25px;
+    /* border: 2px solid black; */
 }
 
 #resumedownload {
@@ -62,11 +38,11 @@ aside {
 
 @media only screen and (max-width: 900px) {
     .Resume {
-        height: 75vh;
+        height: 100vh;
     }
 
     .info {
-        height: 35vh;
+        height: 25vh;
         width: 80vw;
         margin-top: -50px;
         margin-bottom: 50px;
@@ -76,24 +52,12 @@ aside {
 
 @media only screen and (max-width: 740px) {
     .Resume {
-        height: 80vh;
-    }
-
-    aside {
-    /* border: 2px solid black; */
-    display: block;
-    /* margin-left: 30px; */
-    height: 70vh;
-    width: 80vw;
-    margin: auto;
-    }
-
-    .profile-img {
-        margin: 0;
+        height: 95vh;
     }
 
     .info {
         padding: 20px;
-        height: 50vh;
+        /* height: 50vh; */
+        margin: 0;
     }
 }

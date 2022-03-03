@@ -1,12 +1,15 @@
 import './resume.css';
+import '../contact-me/contactme.css';
+import Aside from '../contact-me/Aside'
 import ProfileImg from '../../assets/images/headshot2022.jpg'
 import downloadResume from '../../assets/files/Brianna-Woodruff_Resume-2022.pdf'
 
 export default function Resume() {
     return (
         <section className="card Resume">
-            {/* <h2 id="resumetitle">Resume</h2> */}
-            <aside>
+           <Aside /> 
+
+            {/* <aside>
                 <div className="avatar">
                     <img src={ProfileImg} height={300} width={300} className="profile-img" alt="profileimg" />
                 </div>
@@ -15,7 +18,7 @@ export default function Resume() {
                     <a target="_blank" rel="noreferrer" href="https://linkedin.com/in/briannaewoodruff/"> LinkedIn</a>
                     <a target="_blank" rel="noreferrer" href="https://vimeo.com/294283512/"> Vimeo Reel</a>
                 </div>
-            </aside>
+            </aside> */}
 
             <div className="info">
                 <p>
