@@ -26,7 +26,7 @@ a:hover {
     width: 40vw;
     padding-right: 70px;
     background-color: var(--blush);
-    font-size: 25px;
+    font-size: 22px;
     /* border: 2px solid black; */
 }
 
@@ -38,7 +38,7 @@ a:hover {
 
 @media only screen and (max-width: 900px) {
     .Resume {
-        height: 100vh;
+        height: auto;
     }
 
     .info {
@@ -52,12 +52,14 @@ a:hover {
 
 @media only screen and (max-width: 740px) {
     .Resume {
-        height: 95vh;
+        height: auto;
     }
 
     .info {
         padding: 20px;
         /* height: 50vh; */
         margin: 0;
+        margin-bottom: 25px;
+        font-size: 20px;
     }
 }

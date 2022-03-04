@@ -1,10 +1,20 @@
+a {
+    color: black;
+    display: block;
+}
+
+a:hover,
+a:hover {
+    color: #f12d51;
+}
+
 footer {
-    position: fixed;
+    position: absolute;
     bottom: 0;
     color: var(--border);
     width: 100%;
-    height: 5%;
-    padding: 7px 0 50px 0;
+    height: 90px;
+    padding: 7px 0 0 0;
     font-family: 'Tenor Sans', sans-serif;
     text-align: center;
     background-color: var(--beige);
@@ -13,4 +23,10 @@ footer {
 footer a {
     display: inline;
     font-size: 30px;
+}
+
+#footer {
+    font-size: 15px;
+    /* display: inline; */
+    /* border: 2px solid black; */
 }

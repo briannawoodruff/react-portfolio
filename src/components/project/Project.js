@@ -5,7 +5,7 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 export default function Project() {
     return (
-        <section id="project" className="project">
+        <section className="project">
             <div className="container">
                 <div className="code-card unpuffd">
                     <a target="_blank" rel="noreferrer" href="https://unpuffd.herokuapp.com/">

@@ -5,8 +5,8 @@ import { NavLink } from 'react-router-dom'
 export default function AboutMe() {
     return (
         <section id="About-Me" className="card About-Me">
-            <div className="avatar">
-                <img src={ProfileImg} height={300} width={300} className="profile-img" alt="profileimg" />
+            <div className="avatar-container">
+                <img src={ProfileImg} height={300} width={300} className="profileimg" alt="profileimg" />
             </div>
             <div className="aboutmelinks">
                 <NavLink to='/resume' id="resume">

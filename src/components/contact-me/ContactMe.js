@@ -62,7 +62,7 @@ export default function Project() {
                         <Input.TextArea />
                     </Form.Item>
                     <Form.Item wrapperCol={{ ...layout.wrapperCol, offset: 8 }}>
-                        <Button type="primary" style={{ background: "#f12d51", borderColor: "rgba(140, 29, 50)"}} htmlType="submit">
+                        <Button type="primary" style={{ background: "#f12d51", borderColor: "rgba(140, 29, 50)" }} htmlType="submit">
                             Submit
                         </Button>
                     </Form.Item>

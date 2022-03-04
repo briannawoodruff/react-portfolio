@@ -9,6 +9,7 @@ export default function Footer() {
             <a target="_blank" rel="noreferrer" href="https://github.com/briannawoodruff"> <FontAwesomeIcon icon={faGithub}/></a>
             <a target="_blank" rel="noreferrer" href="https://linkedin.com/in/briannaewoodruff/"> <FontAwesomeIcon icon={faLinkedin}/></a>
             <a target="_blank" rel="noreferrer" href="https://vimeo.com/294283512/"> <FontAwesomeIcon icon={faVimeo}/></a>
+            <p id="footer">&copy; 2022 Brianna Woodruff</p>
         </footer>
     )
 }

@@ -1,13 +1,20 @@
+a {
+    color: black;
+    display: block;
+}
+
+a:hover,
+a:hover {
+    color: #f12d51;
+}
+
 .project {
     width: 100%;
     color: var(--light);
+    height: 185vh;
+    margin: auto;
 }
 
-p {
-    font-family: 'Tenor Sans', sans-serif;
-    font-size: 18.25px;
-}
-  
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -70,6 +77,8 @@ p {
 }
 
 .cardtext {
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 18.25px;
     color: black;
     display: block;
     position: relative;
@@ -105,9 +114,17 @@ a:hover {
         height: 295.5px;
         border-bottom: 1px solid var(--border);
     }
+
+    .project {
+        height: auto;
+    }
 }
 
 @media only screen and (max-width: 576px) {
+    .project {
+        height: auto;
+    }
+    
     .cardtext {
         display: none;
     }
