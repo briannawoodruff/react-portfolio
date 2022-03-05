@@ -36,6 +36,7 @@ export default function Project() {
         )
             .then((response) => {
                 console.log('SUCCESS!', response.status, response.text);
+                window.location.reload(false);
             })
             .catch((err) => {
                 console.log('FAILED...', err);
@@ -49,7 +50,7 @@ export default function Project() {
 
             <div className="form-container">
                 <p>Send me an email:</p>
-                <Form id="form" {...layout} name="nest-messages" onFinish={sendEmail} >
+                <Form {...layout} name="nest-messages" onFinish={sendEmail} >
                     <Form.Item
                         name="name"
                         label="Name"
