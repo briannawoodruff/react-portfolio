@@ -1,7 +1,6 @@
 import './resume.css';
 import '../contact-me/contactme.css';
 import Aside from '../contact-me/Aside'
-import ProfileImg from '../../assets/images/headshot2022.jpg'
 import downloadResume from '../../assets/files/Brianna-Woodruff_Resume-2022.pdf'
 
 export default function Resume() {
